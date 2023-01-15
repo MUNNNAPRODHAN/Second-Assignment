@@ -199,7 +199,7 @@ ul li {
     border-radius: 8px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
-   
+
 
 
 }
@@ -213,63 +213,130 @@ ul li {
     font-size: 40px;
     color: #131313
 }
-.second-body-para{
+
+.second-body-para {
     font-weight: 400;
-font-size: 16px;
-color: #727272;
-padding-left: 25px;
-margin-bottom: 10px;
-}
-.second-body-header{
-    font-weight: 600;
-font-size: 15px;
-color: #131313;
-padding-left: 25px;
+    font-size: 16px;
+    color: #727272;
+    padding-left: 25px;
+    margin-bottom: 10px;
 }
 
-.last-battn{
+.second-body-header {
+    font-weight: 600;
+    font-size: 15px;
+    color: #131313;
+    padding-left: 25px;
+}
+
+.last-battn {
     text-align: center;
     padding-right: 1000px;
     padding-bottom: 30px;
-    
-    
-}
-.last-battn-here{
-font-weight: 300;
-font-size: 60px;
-/* line-height: 30px; */
-text-align: center;
-color: #FFFFFF;
-background: #FF900E;
-border-radius: 8px;
-border: none;
-margin-right: 300px;
-padding:10px 5px 20px 5px;
-margin-top: 500px;
-}
-.add-img{
-    background: url(../images/architect.png);
-   
-}
-.last-box{
-    display: flex;
-    padding: 25px;
-    margin: 35px 25px;
-    gap: 30px;
-    
-}
-.box-free-one, .box-free-two, .box-free-three, .box-free-four{
-    height: 200px;
-    width: 200px;
-    background-color:white;
-    border: 2px solid #FF900E;
-    border-radius: 8px;
-    
+
 
 }
-.img-four{
-    padding-top: 45px;
+
+.last-battn-here {
+    font-weight: 300;
+    font-size: 60px;
+    /* line-height: 30px; */
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-right: 300px;
+    padding: 10px 5px 20px 5px;
+    margin-top: 500px;
+}
+
+.add-img {
+    background: url(../images/architect.png);
+
+}
+
+.middle-part {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.middle-part-header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #131313
+}
+
+.middle-part-para {
+    font-size: 16px;
+    color: #727272;
+}
+
+.last-box {
+    display: flex;
+    padding: 25px;
+    margin: 35px 0px 35px 85px;
+    gap: 40px;
+
+}
+
+.box-free-one,
+.box-free-two,
+.box-free-three,
+.box-free-four {
+    height: 250px;
+    width: 220px;
+    background-color: white;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+
+
+}
+
+.img-four {
+    padding-top: 43px;
+    padding-left: 75px;
+
+}
+
+.img-foure {
+    padding-top: 5px;
     padding-left: 65px;
-    
-    
+    color: #424242;
+    font-size: 45px;
+}
+
+.img-fouree {
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #727272;
+    font-size: 20px;
+}
+
+/* end */
+
+
+/* soponsor start */
+
+.for-sponsor {
+    margin-top: 100px;
+}
+
+.for-sponsor-head {
+    text-align: center;
+}
+
+.for-sponsor-para {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.for-sponsor-img{
+    margin-left: 100px;
+  
+}
+.for-sponsor-img-one{
+    padding-right: 20px;
+    padding-left: 50px;
+    mix-blend-mode: luminosity;
 }
