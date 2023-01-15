@@ -294,11 +294,28 @@ ul li {
 
 }
 
+.box-free-one:hover {
+    background-color: olive;
+}
+
+.box-free-two:hover {
+    background-color: brown
+}
+
+.box-free-three:hover {
+    background-color: gray
+}
+
+.box-free-four:hover {
+    background-color: sienna;
+}
+
 .img-four {
     padding-top: 43px;
     padding-left: 75px;
 
 }
+
 
 .img-foure {
     padding-top: 5px;
@@ -325,18 +342,38 @@ ul li {
 
 .for-sponsor-head {
     text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #131313;
+    margin-bottom: 20px;
 }
 
 .for-sponsor-para {
     text-align: center;
     margin-bottom: 50px;
+    font-size: 16px;
+    color: #727272;
 }
-.for-sponsor-img{
+
+.for-sponsor-img {
     margin-left: 100px;
-  
+
 }
-.for-sponsor-img-one{
+
+.for-sponsor-img-one {
     padding-right: 20px;
     padding-left: 50px;
-    mix-blend-mode: luminosity;
+    margin-bottom: 90px;
+}
+.footer-para{
+    width: 700px;
+height: 40px;
+background: #FFF4E7;
+border-radius: 5px;
+margin-left: 200px;
+padding: 85px 15px 25px 260px;
+margin-bottom: 30px;
+color: #424242;
+
 }
