@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* 1st-Header part start css */
+
+.header-work {
+    background-color: rgba(255, 144, 14, 0.2);
+    /* height: 600px; */
+    width: 100%;
+
+}
+
+/* for  h1 */
+.first-head {
+    padding-left: 30px;
+    width: 300px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #131313;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+/* finish */
+
+/* full nav */
+.heder-part {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 100px;
+
+}
+
+/* end */
+
+ul li {
+    list-style: none;
+    /* justify-content: space-between; */
+    padding-right: 30px;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #424242;
+    font-weight: 500;
+    height: 15px;
+
+}
+
+
+.list-design {
+    display: flex;
+}
+
+.second-head {
+    margin-right: 175px;
+}
+
+/* 2nd description part start -header */
+
+.description-head {
+    text-align: center;
+    color: #131313;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-style: normal;
+
+
+}
+
+.description-para {
+    text-align: center;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.description-batton {
+    text-align: center;
+}
+
+
+
+.bttn {
+    background-color: #FF900E;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 8px 12px 8px;
+    margin-bottom: 30px;
+}
+
+.bttn:hover {
+    background-color: aqua;
+}
+
+.head-img {
+    height: 500px;
+    width: 1000px;
+    padding-left: 200px;
+    margin-bottom: 20px;
+}
+
+.first-body-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-4 {
+    height: 10px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 60px;
+    padding-left: 30px;
+    border-width: 5px;
+    margin-bottom: 20px;
+}
+
+.first-body-part-heading {
+    padding-top: 300px;
+    padding-right: 50px;
+}
+
+#q {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+#o {
+    color: #131313;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#f {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+   
+}
+#h{
+    margin-bottom: 20px;
+}
+
+.first-body-part-para {
+    width: 537px;
+    height: 78px;
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-bottom: 20px;
+}
