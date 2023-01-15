@@ -110,9 +110,12 @@ ul li {
     margin-bottom: 20px;
 }
 
+/* first main part */
 .first-body-part {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
+
 }
 
 .img-4 {
@@ -122,14 +125,14 @@ ul li {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-top: 60px;
-    padding-left: 30px;
+    padding-left: 100px;
     border-width: 5px;
     margin-bottom: 20px;
 }
 
 .first-body-part-heading {
     padding-top: 300px;
-    padding-right: 50px;
+    padding-left: 40px;
 }
 
 #q {
@@ -148,9 +151,10 @@ ul li {
     color: #FF900E;
     font-weight: 700;
     font-size: 45px;
-   
+
 }
-#h{
+
+#h {
     margin-bottom: 20px;
 }
 
@@ -158,7 +162,92 @@ ul li {
     width: 537px;
     height: 78px;
     font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+/* end */
+
+/* second body part-start */
+
+.second-body-part {
+    margin-top: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#stright-line {
+    border-left: 6px solid #FF900E;
+    left: 50%;
+    margin-left: -4px;
+    top: 50px;
+
+}
+
+.second-body-part-img {
+    width: 550px;
+    height: 600px;
+    border-radius: 8px;
+}
+
+.box-first,
+.box-second,
+.box-third {
+    height: 110px;
+    width: 600px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+   
+
+
+}
+
+.second-body-part-description {
+    margin-left: 45px;
+}
+
+.second-body-part-description-head {
+    font-weight: 600;
+    font-size: 40px;
+    color: #131313
+}
+.second-body-para{
+    font-weight: 400;
 font-size: 16px;
 color: #727272;
-margin-bottom: 20px;
+padding-left: 25px;
+margin-bottom: 10px;
+}
+.second-body-header{
+    font-weight: 600;
+font-size: 15px;
+color: #131313;
+padding-left: 25px;
+}
+
+.last-battn{
+    text-align: center;
+    padding-right: 1000px;
+    padding-bottom: 30px;
+    
+    
+}
+.last-battn-here{
+font-weight: 300;
+font-size: 60px;
+/* line-height: 30px; */
+text-align: center;
+color: #FFFFFF;
+background: #FF900E;
+border-radius: 8px;
+border: none;
+margin-right: 300px;
+padding:10px 5px 20px 5px;
+margin-top: 500px;
+}
+.add-img{
+    background: url(../images/architect.png);
+   
 }
